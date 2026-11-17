@@ -1,0 +1,11 @@
+{
+  "name": "snack-counter", "private": true, "type": "module",
+  "engines": { "node": ">=20" }, "workspaces": ["backend", "frontend"],
+  "scripts": {
+    "test": "npm test --workspace backend",
+    "demo": "npm run demo --workspace backend",
+    "build": "npm run build --workspace frontend",
+    "start": "npm start --workspace backend",
+    "dev": "npm run dev --workspace frontend"
+  }
+}
